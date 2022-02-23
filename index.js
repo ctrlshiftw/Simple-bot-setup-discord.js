@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 const express = require('express')
 const fs = require('fs')
-const keepAlive = require('./server.js')
+const { keep_alive } = require("./keep_alive");
 keepAlive();
 //所有準備
 const prefix = "!"
